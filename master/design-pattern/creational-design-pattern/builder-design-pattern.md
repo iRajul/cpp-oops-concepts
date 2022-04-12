@@ -4,6 +4,7 @@
 
 * Builder pattern create object in a piece wise manner rather then passing each argument in a constructor.
 * Builder Design Pattern also helps in minimizing the number of parameters in constructor & thus there is no need to pass in [null](http://www.vishalchovatiya.com/what-exactly-nullptr-is-in-cpp/?ref=hackernoon.com) for optional parameters to the constructor.
+* In below example, we can have a separate class to define steps to create a object as well. So as to create objects with different configurations.
 
 ```cpp
 #include <iostream> 
@@ -60,8 +61,8 @@ class PersonBuilder {
 int main() {
     //htmlelement ele =  htmlbuilder("ul");
     //ele.print();
-    Person p = Person::create("John");//->has_age(41)
-        //->works()->with("MG")->as_a("consultant");
+    Person p = Person::create("John")->has_age(41)
+        ->works()->with("MG")->as_a("consultant");
     return 0;
 }
 
