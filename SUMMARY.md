@@ -6,6 +6,7 @@
     * [😀 Dependency Inversion Principle](master/solid/dependency-inversion-principle.md)
   * [Design Pattern](master/design-pattern/README.md)
     * [Creational Design Pattern](master/design-pattern/creational-design-pattern/README.md)
+      * [Page 1](master/design-pattern/creational-design-pattern/page-1.md)
       * [Builder Design Pattern](master/design-pattern/creational-design-pattern/builder-design-pattern.md)
     * [Behavioral design pattern](master/design-pattern/behavioral-design-pattern.md)
     * [Structural Design Pattern](master/design-pattern/structural-design-pattern/README.md)
